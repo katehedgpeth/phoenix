@@ -152,8 +152,8 @@ defmodule Mix.Phoenix.Schema do
     case t do
         {:array, _}     -> []
         :integer        -> 42
-        :float          -> "120.5"
-        :decimal        -> "120.5"
+        :float          -> 120.5
+        :decimal        -> 120.5
         :boolean        -> true
         :map            -> %{}
         :text           -> "some #{key}"
